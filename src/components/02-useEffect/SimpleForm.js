@@ -32,6 +32,7 @@ export const SimpleForm = () => {
   return (
     <>
       <h1>useEffect</h1>
+      <h4>Se activa con: '123'</h4>
       <hr />
       <div className="form-group">
         <input
