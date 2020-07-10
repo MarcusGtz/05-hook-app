@@ -32,9 +32,11 @@ export const MultipleCustomHooks = () => {
       </button>
       <br />
       <br />
-      <button onClick={decrement} className="btn btn-primary">
-        Preview
-      </button>
+      {counter > 1 && (
+        <button onClick={decrement} className="btn btn-primary">
+          Preview
+        </button>
+      )}
     </div>
   );
 };
